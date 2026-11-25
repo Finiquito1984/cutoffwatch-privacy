@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidade — CutoffWatch</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="../index.html">CutoffWatch</a>
+    <nav>
+      <a href="../index.html">English</a>
+      <a href="index.html" aria-current="page">Português</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Política de privacidade — CutoffWatch</h1>
+    <p class="muted">Última atualização: 25 de novembro de 2026.</p>
+
+    <p><strong>CutoffWatch</strong> ("a extensão") é uma extensão de browser independente publicada por Artur Santos. Não é afiliada, aprovada nem patrocinada pela Shopify.</p>
+
+    <h2>O que a extensão faz</h2>
+    <p><strong>Análise da loja.</strong> Quando clica no ícone da extensão numa loja Shopify e carrega em <strong>Analisar esta loja</strong>, a extensão lê o HTML público dessa página, os ficheiros públicos <code>/llms.txt</code> e <code>/agents.md</code> da loja e os tempos de carregamento registados pelo browser para essa página. Depois mostra, no seu computador, que apps carregam por script tags, que código parece ter ficado de apps removidas e alguns testes de velocidade.</p>
+    <p><strong>Auditoria do tema.</strong> Quando clica no ícone no seu próprio admin Shopify e carrega em <strong>Auditar o tema desta loja</strong>, a extensão lê os ficheiros do tema, as apps instaladas e os script tags a partir do separador do admin Shopify que tem aberto, com a sessão que já tem iniciada. Os resultados, diferenças e relatórios são gerados localmente.</p>
+    <p><strong>Alterações ao tema</strong> só acontecem depois de as confirmar: por defeito numa cópia nova do tema publicado, nunca no tema publicado a não ser que marque uma caixa de confirmação (é feita primeiro uma cópia de segurança). Cada alteração fica registada no seu dispositivo para a poder anular.</p>
+
+    <h2>Dados que recolhemos</h2>
+    <p><strong>Nenhuns.</strong> Não temos servidor para a extensão. Os ficheiros do tema, dados da loja, relatórios e credenciais Shopify nunca nos são enviados.</p>
+    <ul>
+      <li>A extensão nunca vê nem guarda a sua palavra-passe Shopify e nunca regista tokens de sessão.</li>
+      <li>Toda a análise (loja, auditoria do tema, diferenças, ZIP e relatórios) é feita localmente no browser.</li>
+      <li>Os pedidos vão apenas para a loja que está a ver (mesmo site) ou para o admin Shopify onde tem sessão iniciada, e só quando inicia uma análise, auditoria ou alteração.</li>
+      <li>Sem estatísticas, sem rastreio, sem publicidade.</li>
+    </ul>
+
+    <h2>Dados guardados no seu dispositivo</h2>
+    <p>Apenas no armazenamento local da extensão no browser: os últimos resultados de análise e auditoria (para as páginas de relatório os abrirem); o registo de anulação com o conteúdo anterior dos ficheiros alterados pela extensão; a marca opcional dos relatórios (nome, logótipo, cor); e o estado do plano devolvido pelo fornecedor de pagamentos quando o Pro está ativo. Pode apagar estes dados removendo a extensão.</p>
+
+    <h2>Pagamentos</h2>
+    <p>Se comprar o Pro, o pagamento é tratado pela <a href="https://extensionpay.com">ExtensionPay</a>, segundo a política de privacidade própria. A ExtensionPay (e o processador de pagamentos, Stripe) pode receber o seu email e dados de pagamento para processar a compra e verificar a licença. Nunca recebemos os dados do seu cartão. A extensão recebe apenas um estado pago/não pago.</p>
+    <p>O Pro custa 7,99 USD por mês ou 34 USD uma única vez (vitalício). A análise, a auditoria completa, a pré-visualização das diferenças e o download do patch continuam gratuitos.</p>
+
+    <h2>Formulário de contacto</h2>
+    <p>O formulário abaixo (e o mesmo formulário nas Definições da extensão) envia o assunto, a mensagem e um endereço de resposta opcional através de um serviço de reencaminhamento de formulários (<a href="https://web3forms.com">Web3Forms</a>, segundo a política de privacidade desse serviço) para que o editor possa ler a mensagem. Esta página não publica nenhum endereço de email de contacto. Se indicar um endereço de resposta, é usado apenas para lhe responder.</p>
+
+    <h2>Permissões</h2>
+    <table>
+      <thead><tr><th>Permissão</th><th>Porquê</th></tr></thead>
+      <tbody>
+        <tr><td><code>activeTab</code></td><td>Aceder ao separador da loja ou do admin só depois de clicar no ícone da extensão.</td></tr>
+        <tr><td><code>scripting</code></td><td>Executar a análise ou o leitor do admin nesse separador quando carrega no botão.</td></tr>
+        <tr><td><code>https://admin.shopify.com/*</code></td><td>Ler e, após a sua confirmação, escrever os ficheiros do seu próprio tema através da sessão do admin Shopify.</td></tr>
+        <tr><td><code>storage</code> e <code>unlimitedStorage</code></td><td>Guardar resultados, o registo de anulação (conteúdo anterior dos ficheiros), a marca e o estado da licença no seu dispositivo. Os ficheiros do tema podem exceder o limite normal de armazenamento.</td></tr>
+        <tr><td><code>https://extensionpay.com/*</code></td><td>Verificar a licença Pro e, se escolher Atualizar, abrir a página de pagamento da ExtensionPay. Não são enviados dados do tema ou da loja à ExtensionPay.</td></tr>
+      </tbody>
+    </table>
+    <p>Uma permissão opcional, <code>https://api.web3forms.com/*</code>, só é pedida quando envia uma mensagem pelo formulário de contacto.</p>
+
+    <h2>Utilização limitada</h2>
+    <p>A informação recebida é usada apenas para o propósito único da extensão (encontrar script tags e código restante de apps numa loja Shopify e limpar o tema com segurança) e para ler as mensagens que decidir enviar. Não vendemos, transferimos nem usamos dados para publicidade, avaliação de crédito ou outros fins.</p>
+
+    <h2>Alterações</h2>
+    <p>Atualizaremos esta página se as práticas de dados da extensão mudarem. Para contactar o editor, use o formulário abaixo ou o formulário Enviar mensagem nas Definições da extensão.</p>
+
+    <section class="card" id="contact">
+      <h2>Enviar mensagem</h2>
+      <p>Escreva um assunto e uma mensagem. Pode deixar, se quiser, um endereço para resposta.</p>
+      <form id="contact-form" data-sent="Mensagem enviada" data-failed="Não enviada, tente novamente">
+        <label>Assunto<input id="subject" type="text" required maxlength="200"></label>
+        <label>Mensagem<textarea id="message" required maxlength="8000"></textarea></label>
+        <label>Email para resposta (opcional)<input id="reply" type="email" maxlength="200" autocomplete="email"></label>
+        <div class="hp" aria-hidden="true"><input id="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <button type="submit" id="send">Enviar mensagem</button>
+        <p id="status" class="muted" role="status"></p>
+      </form>
+    </section>
+  </main>
+  <footer>Não afiliado nem aprovado pela Shopify. Shopify é uma marca da Shopify Inc.</footer>
+  <script src="../site-config.js"></script>
+  <script src="../form.js"></script>
+</body>
+</html>
